@@ -118,9 +118,19 @@ img {
   border-radius: 2px;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 .btn-xl {
   font-size: 1.6rem;
   padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+  padding: 1.2rem 1.7rem;
   text-transform: uppercase;
 }
 
@@ -156,4 +166,42 @@ img {
 
 .tab-border {
   border-bottom: var(--primary-color) 4px solid;
+}
+
+/* Tab Content */
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+
+/*  Hide content Initially  */
+#tab-1-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Container  */
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+/* Text Styles */
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }

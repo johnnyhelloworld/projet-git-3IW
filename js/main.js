@@ -2,7 +2,7 @@ const tabItems = document.querySelectorAll(".tab-item");
 const tabContentItems = document.querySelectorAll(".tab-content-item");
 
 // Select tab content
-function selectItem(e) {
+function selectItem() {
   removeBorder();
   removeShow();
   // Add border to current tab

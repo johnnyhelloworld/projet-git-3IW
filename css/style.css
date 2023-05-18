@@ -16,6 +16,10 @@ body {
   color: #999;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Header */
 h1 {
   color: #fff;
@@ -122,6 +126,10 @@ img {
   opacity: 0.9;
 }
 
+.btn-rounded {
+  border-radius: 5px;
+}
+
 .btn-xl {
   font-size: 1.6rem;
   padding: 1.5rem 2.1rem;
@@ -132,6 +140,10 @@ img {
   font-size: 1.5rem;
   padding: 1.2rem 1.7rem;
   text-transform: uppercase;
+}
+
+.btn-icon {
+  margin-left: 0.5rem;
 }
 
 /* Tabs */
@@ -275,6 +287,11 @@ img {
 }
 
 /* Text Styles */
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .text-lg {
   font-size: 1.8rem;
   margin-bottom: 1rem;

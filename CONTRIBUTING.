@@ -1,0 +1,8 @@
+Contributions are highly welcome. Feel free to fork, clone, make pull requests, report issues etc.
+
+If you would like to contribute to this project, please follow the steps below:
+1. Fork this repository.
+2. Create a new branch: `git checkout -b my-feature-branch`
+3. Make the necessary changes and commit them: `git commit -am 'Add new feature'`
+4. Push changes to the branch: `git push origin my-feature-branch`
+5. Submit a pull request.

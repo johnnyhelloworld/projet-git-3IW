@@ -1,0 +1,16 @@
+.DS_Store
+
+.env
+.env.bak
+.env.dist
+.env.local
+.env.test
+
+.idea
+.vscode
+
+package.json
+
+node_modules
+
+.eslintrc.js
